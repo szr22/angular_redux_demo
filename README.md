@@ -11,3 +11,7 @@ git push -u origin master
 # to initial the project
 run yarn
 
+# to run the project
+run node --inspect=22424 --nolazy app.js
+
+p.s. inspect-brk will start a ws app
