@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'angular-redux-demo';
+  title = 'app works!';
+  public menuItems = [
+    { caption: 'Courses', link: '/courses' },
+  ];
+
+  resetDb() {
+    console.log('resetting DB!!!!');
+  }
 }

@@ -47,3 +47,6 @@ p.s. get/set have been deprecated in favor of the config command
 ng new angular-redux-demo
 p.s. angular project name can't use underscore
 
+yarn add @angular/http
+yarn add angular-in-memory-web-api
+yarn add rxjs-compat
