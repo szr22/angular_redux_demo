@@ -50,3 +50,9 @@ p.s. angular project name can't use underscore
 yarn add @angular/http
 yarn add angular-in-memory-web-api
 yarn add rxjs-compat
+
+# to start project
+yarn start
+
+# to run test case
+yart test
