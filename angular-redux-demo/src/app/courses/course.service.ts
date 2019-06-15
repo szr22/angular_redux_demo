@@ -10,9 +10,7 @@ import { ExceptionService } from '../blocks/exception.service';
 // import { /* ExceptionService, */ SpinnerService } from '../blocks/blocks';
 // import { CONFIG, MessageService } from '../shared/shared';
 
-
 let coursesUrl = CONFIG.baseUrls.courses;
-
 
 @Injectable()
 export class CourseService {
